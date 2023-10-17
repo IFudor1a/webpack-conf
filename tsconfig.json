@@ -4,10 +4,10 @@
     "noImplicitAny": true,
     "module": "ESNext",
     "target": "es5",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
-    "baseUrl": ".",
+    //"baseUrl": ".",
     //esModuleInterop позволяет работать с пакетами , которые используют
     //common js как с обычными пакетами с помощью import require() module.export
     "esModuleInterop": true,

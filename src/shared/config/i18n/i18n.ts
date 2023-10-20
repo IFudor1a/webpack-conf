@@ -24,9 +24,8 @@ i18n
             escapeValue: false, // not needed for react as it escapes by default
         },
         backend: {
-                loadPath: '/Locales/{{lng}}/{{ns}}.json'
+            loadPath: '/Locales/{{lng}}/{{ns}}.json',
         },
     });
-
 
 export default i18n;

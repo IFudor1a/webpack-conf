@@ -6,5 +6,5 @@ interface SpinnerProps {
     className?: string;
 }
 export const Spinner:FC<SpinnerProps> = ({ className }) => (
-    <span className={classNames(cls.loader, {}, [className])} />
+    <span className={classNames(cls.Loader, {}, [className])} />
 );

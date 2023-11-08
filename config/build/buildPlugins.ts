@@ -19,7 +19,7 @@ export function buildPlugins({ paths, isDev }:BuildOptions): webpack.WebpackPlug
         }),
         new webpack.HotModuleReplacementPlugin(),
         new BundleAnalyzerPlugin({
-            openAnalyzer: isDev
+            openAnalyzer: isDev,
         }),
 
     ];

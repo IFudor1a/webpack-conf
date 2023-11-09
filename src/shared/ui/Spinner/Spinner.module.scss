@@ -20,10 +20,10 @@
     width: 20px;
     height: 20px;
     background-color: var(--inverted-bg-color);
-    animation: rotate 1s ease-in infinite, moveY 1s ease-in infinite;
+    animation: rotate 1s ease-in infinite, move-y 1s ease-in infinite;
 }
 
-@keyframes moveY {
+@keyframes move-y {
     0%,
     100% { top: 10%; }
 

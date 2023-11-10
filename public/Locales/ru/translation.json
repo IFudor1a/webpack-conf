@@ -1,9 +1,10 @@
 {
   "Test translation": "Testovoi perevod",
-  "language": "RU",
+  "language": "Russian",
   "Page not found": "страница не найдена",
   "Unresolved error happened": {
     " Please Try again": "Unresolved error happened. Please Try again"
   },
-  "toggle": "toggle"
+  "toggle": "toggle",
+  "short language": "RU"
 }

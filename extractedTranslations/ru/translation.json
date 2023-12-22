@@ -8,5 +8,7 @@
   "Unresolved error happened": {
     " Please Try again": " Please Try again"
   },
+  "decrement": "decrement",
+  "increment": "increment",
   "language": "language"
 }

@@ -3,6 +3,7 @@ import React, {
     ReactNode, useState, useRef, useEffect, useCallback,
 } from 'react';
 import { Portal } from 'shared/ui/Portal/Portal';
+import { useTheme } from 'app/providers/ThemeProvider';
 import cls from './Modal.module.scss';
 
 interface ModalProps {
@@ -19,7 +20,7 @@ export const Modal = (props: ModalProps) => {
         isOpen = false,
         onClose,
     } = props;
-
+    const { theme } = useTheme();
     const [isClosing, setIsClosing] = useState(false);
     const timerRef = useRef<ReturnType<typeof setTimeout>>();
 

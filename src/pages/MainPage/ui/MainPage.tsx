@@ -11,7 +11,6 @@ const MainPage = () => {
     return (
         <div>
             {t('MainPage')}
-            <Input type="text" value={value} onChange={onChange} />
         </div>
     );
 };
